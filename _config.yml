@@ -5,7 +5,7 @@ url: "https://lsjhome007.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Jin's Blog. The Road to Machine Learning Engineer
+  title: Jin's Blog.
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -13,7 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p> Professional pseudo Data Scientist who loves surprised cat face. </p>
+     <h3> The road to Machine Learning Engineer </h3>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
