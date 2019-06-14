@@ -6,7 +6,7 @@ url: "https://lsjhome007.github.io/"
 theme_settings:
   # Meta
   title: Jin's Blog
-  avatar: assets/img/avatar.png
+  avatar: # assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
