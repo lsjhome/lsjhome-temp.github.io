@@ -13,3 +13,4 @@ To become a competitive Data Scientist / Machine Learning Engineer, I believe st
 
 Data Scientist is pretty broad term. I'm interested in building practical products or solution that requires Machine Learning. My interest is not limited by certain domain, but I'm particularly interested in applying NLP to real world problems. 
 
+In my free time, I go to a gym or on bike rides. Recently, I started learning Salsa and Bachata. 
