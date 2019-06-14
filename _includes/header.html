@@ -1,4 +1,5 @@
 <header class="site-header">
+
 	<div class="branding">
 		{% if site.theme_settings.gravatar %}
 		<a href="{{ site.baseurl }}/">
@@ -13,7 +14,9 @@
 			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
 		</h1>
 	</div>
+	
 	<nav class="site-nav">
+
 		<ul>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
@@ -41,4 +44,32 @@
 		</ul>
 	</nav>
     
+    <div class="site-category">
+    <ul class='cat1'>
+      <li><a href="/">Home</a></li>
+
+      <li><a href="/">Machine Learning</a>
+        <ul>
+            <li><a href="/ML/DLWP">Deep Learning with Python</a></li>
+            <li><a href="/ML/DLND">Deep Learning Nano Degree</a></li>
+        </ul>
+      </li>
+
+      <li><a href="/">Data Engineering</a>
+        <ul>
+            <li><a href="/DEN/IAS">Intro to Apache Spark</a></li>
+        </ul>
+      </li>      
+
+      <li><a href="/">Computer Science</a>
+        <ul>
+            <li><a href="/CS/DSA">Data Structure & Algorithm</a></li>
+            <li><a href="/CS/PS">Problem Solving</a></li>
+        </ul>
+      </li>
+    </ul>
+  	</div>
+
+
+
 </header>

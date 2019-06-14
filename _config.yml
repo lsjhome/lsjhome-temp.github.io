@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: ""
-#url: "https://lsjhome007.github.io/"
-url: "http://localhost:4000"
+url: "https://lsjhome007.github.io/"
+#url: "http://localhost:4000"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
