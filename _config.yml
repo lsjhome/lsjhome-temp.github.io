@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://lsjhome007.github.io/"
-#url: "http://localhost:4000"
+#url: "https://lsjhome007.github.io/"
+url: "http://localhost:4000"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
@@ -31,7 +31,7 @@ theme_settings:
   gitter:
   google_plus:
   instagram:
-  linkedin: "https://www.linkedin.com/in/lsjhome007/" # Full URL
+  linkedin: "https://www.linkedin.com/in/lsjhome/" # Full URL
   pinterest:
   reddit:
   soundcloud:
@@ -44,7 +44,7 @@ theme_settings:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: "disqus_OLMlBM6AV6"
   katex: true # Enable if using math markup
   search: true # Enable the search feature
 

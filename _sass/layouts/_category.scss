@@ -1,0 +1,22 @@
+.category-title {
+  clear:left;
+  padding: 0 0 0 $padding-small*0.5;
+  margin: 0;
+  
+}
+.posts-list {
+  @extend %padding-regular;
+  clear:left;
+  padding: 0 0 0 $padding-small*0.5;
+  margin: 0;
+  list-style: none;
+  li{
+    a{
+      font-weight: bold;
+    }
+  }
+}
+
+.category-cover {
+  padding: 0 0 0 $padding-small*0.5;
+}
