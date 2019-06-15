@@ -68,15 +68,22 @@
     function search(searchTerm) {
       setSearchBoxValue(searchTerm);
 
-      var lunrIndex = lunr(function () {
-          this.field("id");
-          this.field("title", {
-              boost: 10
-          });
-          this.field("author");
-          this.field("category");
-          this.field("content");
-      });
+      // var lunrIndex = lunr(function () {
+      //     this.field("id");
+      //     this.field("title", {
+      //         boost: 10
+      //     });
+      //     this.field("author");
+      //     this.field("category");
+      //     this.field("content");
+      // });
+
+      var lunrIndex = lunr.Index;
+      lunrIndex.field("id");
+      lunrIndex.field("title", { boost: 10 });
+      lunrIndex.field("author");
+      lunrIndex.field("category");
+      lunrIndex.field("content");
 
       for (var key in window.store) {
         addPostToSearchIndex(lunrIndex, key, window.store[key])
