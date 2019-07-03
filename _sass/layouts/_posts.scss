@@ -56,3 +56,7 @@ header {
     @extend %padding-regular;
   }
 }
+
+pre, code {
+  background-color: #eef;
+}
