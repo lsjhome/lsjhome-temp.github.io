@@ -265,5 +265,72 @@ subtitle: "This is a subtitle"
 ---
 ```
 
+## How to write a post categorically
+
+1. Modify ```_includes > header.html > "site-category" tag```
+
+   ```html
+   ...
+   <div class="site-category">
+       <ul class='cat1'>
+         <li><a href="/">Home</a></li>
+   
+         <li><a href="/">Machine Learning</a>
+           <ul>
+               <li><a href="/ML/DLFS2">Deep Learning from Scratch 2</a></li>
+               <li><a href="/ML/DLWP">Deep Learning with Python</a></li>
+               <li><a href="/ML/DLND">Deep Learning Nano Degree</a></li>
+           </ul>
+         </li>
+   
+         <li><a href="/">Data Engineering</a>
+           <ul>
+               <li><a href="/DEN/IAS">Intro to Apache Spark</a></li>
+           </ul>
+         </li>      
+   
+         <li><a href="/">Computer Science</a>
+           <ul>
+               <li><a href="/CS/DSA">Data Structure & Algorithm</a></li>
+               <li><a href="/CS/PS">Problem Solving</a></li>
+               <li><a href="/CS/TC">This is C</a></li>
+           </ul>
+         </li>
+       </ul>
+     	</div>
+   
+   </header>
+   ```
+
+   
+
+2. Make cateogory file in ```.MD``` in ``` category``` folder
+
+   ```MD
+   ---
+   layout: category
+   title: Deep Learning from Scratch 2
+   permalink: '/ML/DLFS2'
+   feature-img: '/assets/img/dlfs2/dlfs2-bc.jpg'
+   feature-img-link: 'https://www.hanbit.co.kr/store/books/look.php?p_code=B8950212853'
+   ---
+   
+   Another sample category page.
+   ```
+
+3. Make and name a folder to classify in ```_post``` folder
+
+   ```MD
+   ---
+   layout: post
+   title: Chapter 01. 신경망 복습
+   comments: true
+   categories: [Deep Learning from Scratch 2]
+   tags: [Deep Learning, Machine Learning]
+   author: lsjhome
+   ---
+   ```
+
 ## License
+
 [The MIT License (MIT)](https://github.com/rohanchandra/type-theme/blob/master/LICENSE)
